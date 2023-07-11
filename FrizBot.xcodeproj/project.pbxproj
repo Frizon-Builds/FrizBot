@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE588FAA2A5E0208006D6B94 /* FrizBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FA92A5E0208006D6B94 /* FrizBotApp.swift */; };
+		CE588FAC2A5E0208006D6B94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FAB2A5E0208006D6B94 /* ContentView.swift */; };
+		CE588FAE2A5E020A006D6B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE588FAD2A5E020A006D6B94 /* Assets.xcassets */; };
+		CE588FB12A5E020A006D6B94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE588FB02A5E020A006D6B94 /* Preview Assets.xcassets */; };
+		CE588FB32A5E020A006D6B94 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FB22A5E020A006D6B94 /* Persistence.swift */; };
+		CE588FB62A5E020A006D6B94 /* FrizBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE588FB42A5E020A006D6B94 /* FrizBot.xcdatamodeld */; };
+		CE588FC12A5E020A006D6B94 /* FrizBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FC02A5E020A006D6B94 /* FrizBotTests.swift */; };
+		CE588FCB2A5E020A006D6B94 /* FrizBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FCA2A5E020A006D6B94 /* FrizBotUITests.swift */; };
+		CE588FCD2A5E020A006D6B94 /* FrizBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE588FCC2A5E020A006D6B94 /* FrizBotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE588FBD2A5E020A006D6B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE588F9E2A5E0208006D6B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE588FA52A5E0208006D6B94;
+			remoteInfo = FrizBot;
+		};
+		CE588FC72A5E020A006D6B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE588F9E2A5E0208006D6B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE588FA52A5E0208006D6B94;
+			remoteInfo = FrizBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE588FA62A5E0208006D6B94 /* FrizBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrizBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE588FA92A5E0208006D6B94 /* FrizBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrizBotApp.swift; sourceTree = "<group>"; };
+		CE588FAB2A5E0208006D6B94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE588FAD2A5E020A006D6B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE588FB02A5E020A006D6B94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE588FB22A5E020A006D6B94 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CE588FB52A5E020A006D6B94 /* FrizBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrizBot.xcdatamodel; sourceTree = "<group>"; };
+		CE588FB72A5E020A006D6B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE588FBC2A5E020A006D6B94 /* FrizBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrizBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE588FC02A5E020A006D6B94 /* FrizBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrizBotTests.swift; sourceTree = "<group>"; };
+		CE588FC62A5E020A006D6B94 /* FrizBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrizBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE588FCA2A5E020A006D6B94 /* FrizBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrizBotUITests.swift; sourceTree = "<group>"; };
+		CE588FCC2A5E020A006D6B94 /* FrizBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrizBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE588FA32A5E0208006D6B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FB92A5E020A006D6B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FC32A5E020A006D6B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE588F9D2A5E0208006D6B94 = {
+			isa = PBXGroup;
+			children = (
+				CE588FA82A5E0208006D6B94 /* FrizBot */,
+				CE588FBF2A5E020A006D6B94 /* FrizBotTests */,
+				CE588FC92A5E020A006D6B94 /* FrizBotUITests */,
+				CE588FA72A5E0208006D6B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE588FA72A5E0208006D6B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE588FA62A5E0208006D6B94 /* FrizBot.app */,
+				CE588FBC2A5E020A006D6B94 /* FrizBotTests.xctest */,
+				CE588FC62A5E020A006D6B94 /* FrizBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE588FA82A5E0208006D6B94 /* FrizBot */ = {
+			isa = PBXGroup;
+			children = (
+				CE588FA92A5E0208006D6B94 /* FrizBotApp.swift */,
+				CE588FAB2A5E0208006D6B94 /* ContentView.swift */,
+				CE588FAD2A5E020A006D6B94 /* Assets.xcassets */,
+				CE588FB22A5E020A006D6B94 /* Persistence.swift */,
+				CE588FB72A5E020A006D6B94 /* Info.plist */,
+				CE588FB42A5E020A006D6B94 /* FrizBot.xcdatamodeld */,
+				CE588FAF2A5E020A006D6B94 /* Preview Content */,
+			);
+			path = FrizBot;
+			sourceTree = "<group>";
+		};
+		CE588FAF2A5E020A006D6B94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE588FB02A5E020A006D6B94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE588FBF2A5E020A006D6B94 /* FrizBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE588FC02A5E020A006D6B94 /* FrizBotTests.swift */,
+			);
+			path = FrizBotTests;
+			sourceTree = "<group>";
+		};
+		CE588FC92A5E020A006D6B94 /* FrizBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE588FCA2A5E020A006D6B94 /* FrizBotUITests.swift */,
+				CE588FCC2A5E020A006D6B94 /* FrizBotUITestsLaunchTests.swift */,
+			);
+			path = FrizBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE588FA52A5E0208006D6B94 /* FrizBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE588FD02A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBot" */;
+			buildPhases = (
+				CE588FA22A5E0208006D6B94 /* Sources */,
+				CE588FA32A5E0208006D6B94 /* Frameworks */,
+				CE588FA42A5E0208006D6B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrizBot;
+			productName = FrizBot;
+			productReference = CE588FA62A5E0208006D6B94 /* FrizBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE588FBB2A5E020A006D6B94 /* FrizBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE588FD32A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBotTests" */;
+			buildPhases = (
+				CE588FB82A5E020A006D6B94 /* Sources */,
+				CE588FB92A5E020A006D6B94 /* Frameworks */,
+				CE588FBA2A5E020A006D6B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE588FBE2A5E020A006D6B94 /* PBXTargetDependency */,
+			);
+			name = FrizBotTests;
+			productName = FrizBotTests;
+			productReference = CE588FBC2A5E020A006D6B94 /* FrizBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE588FC52A5E020A006D6B94 /* FrizBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE588FD62A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBotUITests" */;
+			buildPhases = (
+				CE588FC22A5E020A006D6B94 /* Sources */,
+				CE588FC32A5E020A006D6B94 /* Frameworks */,
+				CE588FC42A5E020A006D6B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE588FC82A5E020A006D6B94 /* PBXTargetDependency */,
+			);
+			name = FrizBotUITests;
+			productName = FrizBotUITests;
+			productReference = CE588FC62A5E020A006D6B94 /* FrizBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE588F9E2A5E0208006D6B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE588FA52A5E0208006D6B94 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE588FBB2A5E020A006D6B94 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE588FA52A5E0208006D6B94;
+					};
+					CE588FC52A5E020A006D6B94 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE588FA52A5E0208006D6B94;
+					};
+				};
+			};
+			buildConfigurationList = CE588FA12A5E0208006D6B94 /* Build configuration list for PBXProject "FrizBot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE588F9D2A5E0208006D6B94;
+			productRefGroup = CE588FA72A5E0208006D6B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE588FA52A5E0208006D6B94 /* FrizBot */,
+				CE588FBB2A5E020A006D6B94 /* FrizBotTests */,
+				CE588FC52A5E020A006D6B94 /* FrizBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE588FA42A5E0208006D6B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE588FB12A5E020A006D6B94 /* Preview Assets.xcassets in Resources */,
+				CE588FAE2A5E020A006D6B94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FBA2A5E020A006D6B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FC42A5E020A006D6B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE588FA22A5E0208006D6B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE588FB62A5E020A006D6B94 /* FrizBot.xcdatamodeld in Sources */,
+				CE588FB32A5E020A006D6B94 /* Persistence.swift in Sources */,
+				CE588FAC2A5E0208006D6B94 /* ContentView.swift in Sources */,
+				CE588FAA2A5E0208006D6B94 /* FrizBotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FB82A5E020A006D6B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE588FC12A5E020A006D6B94 /* FrizBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE588FC22A5E020A006D6B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE588FCB2A5E020A006D6B94 /* FrizBotUITests.swift in Sources */,
+				CE588FCD2A5E020A006D6B94 /* FrizBotUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE588FBE2A5E020A006D6B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE588FA52A5E0208006D6B94 /* FrizBot */;
+			targetProxy = CE588FBD2A5E020A006D6B94 /* PBXContainerItemProxy */;
+		};
+		CE588FC82A5E020A006D6B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE588FA52A5E0208006D6B94 /* FrizBot */;
+			targetProxy = CE588FC72A5E020A006D6B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE588FCE2A5E020A006D6B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE588FCF2A5E020A006D6B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE588FD12A5E020A006D6B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FrizBot/Preview Content\"";
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE588FD22A5E020A006D6B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FrizBot/Preview Content\"";
+				DEVELOPMENT_TEAM = CNM2V96758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE588FD42A5E020A006D6B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrizBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrizBot";
+			};
+			name = Debug;
+		};
+		CE588FD52A5E020A006D6B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrizBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrizBot";
+			};
+			name = Release;
+		};
+		CE588FD72A5E020A006D6B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrizBot;
+			};
+			name = Debug;
+		};
+		CE588FD82A5E020A006D6B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNM2V96758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrizBot.FrizBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrizBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE588FA12A5E0208006D6B94 /* Build configuration list for PBXProject "FrizBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE588FCE2A5E020A006D6B94 /* Debug */,
+				CE588FCF2A5E020A006D6B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE588FD02A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE588FD12A5E020A006D6B94 /* Debug */,
+				CE588FD22A5E020A006D6B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE588FD32A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE588FD42A5E020A006D6B94 /* Debug */,
+				CE588FD52A5E020A006D6B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE588FD62A5E020A006D6B94 /* Build configuration list for PBXNativeTarget "FrizBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE588FD72A5E020A006D6B94 /* Debug */,
+				CE588FD82A5E020A006D6B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE588FB42A5E020A006D6B94 /* FrizBot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE588FB52A5E020A006D6B94 /* FrizBot.xcdatamodel */,
+			);
+			currentVersion = CE588FB52A5E020A006D6B94 /* FrizBot.xcdatamodel */;
+			path = FrizBot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE588F9E2A5E0208006D6B94 /* Project object */;
+}
